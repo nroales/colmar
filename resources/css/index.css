@@ -5,4 +5,36 @@ html {
 body {
   background-color: white;
   color: grey;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+.container {
+  display: flex;
+}
+
+header {
+  justify-content: space-between;
+  height: 4rem;
+  align-items: center;
+  padding: 0 1.5rem;
+}
+
+.wordmark {
+  text-transform: uppercase;
+  color: #b3b3b3;
+  align-items: center;
+  letter-spacing: 0.1px;
+}
+
+.wordmark span {
+  color: #666666;
+  font-weight: 600;
+}
+
+nav a {
+  margin-left: 1rem;
+}
+
+nav a:first-child {
+  margin-left: 0
 }
