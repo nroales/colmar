@@ -205,5 +205,29 @@ nav a:first-child {
   text-transform: uppercase;
 }
 
-
 /* END LEARNING */
+
+/* START THESIS */
+
+.thesis h2 {
+  margin: 2rem 0;
+  text-align: center;
+}
+
+.feature video {
+  max-width: 100%;
+}
+
+.thesis .feature h3 {
+  margin: 1.5rem 0 0.5rem;
+}
+
+.thesis .feature {
+  padding-top: 0;
+  border-right: 0;
+}
+
+.thesis .sidebar {
+  padding-top: 0;
+}
+/* END THESIS */
