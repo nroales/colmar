@@ -44,6 +44,10 @@ a:hover {
   text-decoration: underline;
 }
 
+small {
+  font-size: 0.8rem;
+}
+
 .container {
   display: flex;
 }
@@ -231,3 +235,23 @@ nav a:first-child {
   padding-top: 0;
 }
 /* END THESIS */
+
+/* START FOOTER */
+footer {
+  padding: 1rem;  1.5rem;
+  border-top: 1px solid #cccccc;
+  justify-content: space-between;
+  font-size: 0.8rem;
+}
+
+footer a {
+  margin-left: 1rem;
+  color: grey;
+}
+
+footer a:first-child {
+  margin-left: 0;
+}
+
+
+/* END FOOTER */
