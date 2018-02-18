@@ -36,6 +36,11 @@ p:last-child {
   margin-bottom: 0;
 }
 
+cite {
+  display: block;
+  margin-top: 1rem;
+}
+
 a {
   color: Dodgerblue;
 }
