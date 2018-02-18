@@ -335,6 +335,41 @@ footer a:first-child {
     padding: 0 1rem;
   }
 
+  .course img, .course p {
+    display: none;
+  }
+
+  .learning {
+  background-color: white;
+  border-top: 1px solid #e6e6e6;
+  border-bottom: 1px solid #e6e6e6;
+  }
+
+  .learning h2 {
+    margin-bottom: 1rem;
+  }
+
+  .course {
+    width: auto;
+    margin-left: 0;
+    margin-top: 0.5rem;
+    background: #e6e6e6;
+  }
+
+  .course:first-child {
+    margin-top: 0;
+  }
+
+  .course .description {
+    margin: 0;
+    padding: 1rem;
+  }
+
+
+
+
+
+
 }
 
 
