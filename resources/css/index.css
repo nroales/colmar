@@ -238,7 +238,7 @@ nav a:first-child {
 
 /* START FOOTER */
 footer {
-  padding: 1rem;  1.5rem;
+  padding: 1rem 1.5rem;
   border-top: 1px solid #cccccc;
   justify-content: space-between;
   font-size: 0.8rem;
@@ -366,6 +366,10 @@ footer a:first-child {
     padding: 1rem;
   }
 
+  .thesis {
+    margin-bottom: 1.5rem;
+  }
+
   .thesis h3,
   .thesis p,
   .thesis .sidebar {
@@ -381,7 +385,14 @@ footer a:first-child {
     margin: 2rem 0 1rem;
   }
 
-}
+  footer {
+    border-top: 0;
+  }
 
+  .legal {
+    display: none;
+  }
+
+}
 
 /* END MOBILE */
