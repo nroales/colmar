@@ -252,6 +252,40 @@ footer a {
 footer a:first-child {
   margin-left: 0;
 }
-
-
 /* END FOOTER */
+
+/* BEGIN (Desktop) */
+.mobile {
+  display: none;
+}
+
+/* END (Desktop) */
+
+/* BEGIN MOBILE */
+
+@media only screen and (max-width: 740px) {
+  .container {
+    display: block;
+  }
+
+  .desktop {
+    display: none;
+  }
+
+  .mobile {
+    display: block;
+  }
+
+  header.mobile {
+    display: flex;
+    padding: 0;
+  }
+
+  header.mobile a {
+    width: 25%;
+    text-align: center;
+  }
+}
+
+
+/* END MOBILE */
