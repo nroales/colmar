@@ -276,6 +276,18 @@ footer a:first-child {
     display: block;
   }
 
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  h3 {
+    font-size: 1.2rem;
+  }
+
   header.mobile {
     display: flex;
     padding: 0;
@@ -285,6 +297,21 @@ footer a:first-child {
     width: 25%;
     text-align: center;
   }
+
+  .banner .photolead {
+    padding: 0;
+    width: 100%;
+  }
+
+  .banner .cta {
+    width: auto;
+    padding: 2rem 1rem;
+  }
+
+  .banner .cta p {
+    margin: 2rem 0 1.5rem;
+  }
+
 }
 
 
